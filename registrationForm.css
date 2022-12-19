@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to bottom right,#333399,#ff00cc );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+.container{
+    max-width:800px;
+    width:100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+ 
+   
+ } 
+ .container .heading{
+  font-size: 25px;
+  text-align: center;
+ } 
+ .container form .card-details{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ form .card-details .card-box{
+    margin : 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+ }
+ .card-details .card-box .details{
+    display:block;
+    font-weight: 500;
+    margin-bottom:5px;
+ }
+ .card-details .card-box input{
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 15px;
+    
+}
+
+form .gender-details .category{
+    display:flex;
+    justify-content: space-between;
+}
+.btn{ 
+    background-color: blue;
+    font-size: 40px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 20px 5px;
+}
+
+
+
